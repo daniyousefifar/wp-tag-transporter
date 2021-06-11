@@ -16,7 +16,7 @@
  * Plugin Name:       WP Tag Transporter
  * Plugin URI:        https://yousefifar.dev
  * Description:       WordPress Plugin for Transport Tag to Taxonomy
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Daniel Yousefi Far
  * Author URI:        https://yousefifar.dev
  * License:           GPL-2.0+
