@@ -263,7 +263,7 @@ class Wp_Tag_Transporter_Admin {
 				$the_query->the_post();
 				wp_set_post_terms(
 					get_the_ID(),
-					$term->term_id,
+					[ $term->term_id ],
 					$taxonomy,
 					true
 				);
@@ -271,9 +271,9 @@ class Wp_Tag_Transporter_Admin {
 		}
 		wp_reset_postdata();
 
-		wp_send_json_success([
+		wp_send_json_success( [
 			'message' => 'Your request was successful.',
-		]);
+		] );
 
 		exit();
 	}
