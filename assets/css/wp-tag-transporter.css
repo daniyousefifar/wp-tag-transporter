@@ -1,0 +1,48 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wp_tag_transporter_title {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.wp_tag_transporter_wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wp_tag_transporter_wrapper__tags,
+.wp_tag_transporter_wrapper__taxonomies,
+.wp_tag_transporter_wrapper__btn {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.wp_tag_transporter_wrapper__btn {
+    justify-content: flex-end;
+}
+
+.js-wp_tag_transporter_action__wrapper--btn {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: #388E3C;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    border: 0;
+    border-radius: 7px;
+    transition: all .15s;
+    cursor: pointer;
+}
+
+.js-wp_tag_transporter_action__wrapper--btn:hover {
+    background-color: #1B5E20;
+}
+
+.js-wp_tag_transporter_action__wrapper--btn:disabled {
+    background-color: #81C784;
+    cursor: not-allowed;
+}
