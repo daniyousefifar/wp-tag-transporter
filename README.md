@@ -17,5 +17,8 @@ a plugin to transporter posts from tags to taxonomy.
 
 ### Changelog
 
+### 1.0.1
+* Fixed Some Reported Bugs.
+
 ### 1.0.0
 * Initial Release.
